@@ -15,10 +15,7 @@ public class MainStudent {
     public static void main(String[] args) {
         int counter_excellent_student = 0;
 
-        Student Ivanov = new Student(...);
-        Ivanov.exam_physics = 70;
-        Ivanov.exam_maths = 75;
-        Ivanov.exam_history = 90;
+        Student Ivanov = new Student("Ivanov", 2003, 1, 70, 75, 90);
         System.out.println(Ivanov);
         if(Ivanov.exam_maths >= EXCELLENT)
         {
@@ -26,10 +23,7 @@ public class MainStudent {
             counter_excellent_student = counter_excellent_student + 1;
         }
 
-        Student Petrov = new Student(...);
-        Petrov.exam_physics = 80;
-        Petrov.exam_maths = 85;
-        Petrov.exam_history = 100;
+        Student Petrov = new Student("Petrov", 2003, 1, 80,85, 100);
         System.out.println(Petrov);
         if(Petrov.exam_maths >= EXCELLENT)
         {
